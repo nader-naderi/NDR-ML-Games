@@ -615,7 +615,7 @@ MonoBehaviour:
   - {fileID: 374804791}
   - {fileID: 2210506}
   fireBurn: {fileID: 1003045181}
-  personPrefab: {fileID: 2260583995795516562, guid: 658c534d2bde45b49b5c21d7766a21eb, type: 3}
+  personPrefab: {fileID: 8853088365305674670, guid: 658c534d2bde45b49b5c21d7766a21eb, type: 3}
   populationSize: 10
   trialTime: 25
 --- !u!4 &86864112

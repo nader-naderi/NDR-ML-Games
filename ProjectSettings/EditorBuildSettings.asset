@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Perceptron/_Scenes/PerceptronScene.unity
+    guid: 72bca3d595758574d8b77b2ef7fffb14
   m_configObjects: {}

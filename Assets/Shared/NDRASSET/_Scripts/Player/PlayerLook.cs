@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 namespace NDRLiteFPS
@@ -37,7 +38,7 @@ namespace NDRLiteFPS
 
             xAxisClamp += mouseY;
 
-            if(xAxisClamp > 90.0f)
+            if (xAxisClamp > 90.0f)
             {
                 xAxisClamp = 90.0f;
                 mouseY = 0.0f;
@@ -51,7 +52,9 @@ namespace NDRLiteFPS
             }
 
             transform.Rotate(Vector3.left * mouseY);
-            playerBody.Rotate(Vector3.up * mouseX);
+
+            if (playerBody)
+                playerBody.Rotate(Vector3.up * mouseX);
         }
 
         private void ClampXAxisRotationToValue(float value)
